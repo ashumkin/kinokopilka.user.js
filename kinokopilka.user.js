@@ -3,13 +3,15 @@
 // @author     Alexey Shumkin
 // @license    MIT
 // @namespace  http://kinokopilka.tv
-// @version    0.2
+// @version    0.2.1
+// @history    0.2.1 - Add @downloadURL
 // @history    0.2 - Add Opera/Firefox support. Added metadata headers.
 // @history    0.1 - initial version
 // @description  Expands all folded torrents blocks and enables last "Enqueue torrent" link
 // @include    http://www.kinokopilka.tv/movies/*
 // @match      http://www.kinokopilka.tv/movies/*
 // @grant      none
+// @downloadURL https://github.com/ashumkin/kinokopilka.user.js/raw/master/kinokopilka.user.js
 // @copyright  2012+, Alexey Shumkin
 // ==/UserScript==
 !function (win) {
